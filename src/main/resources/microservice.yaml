@@ -7,7 +7,7 @@ service_description:
 cse:
   service:
     registry:
-      address: https://cse.cn-north-1.myhwclouds.com:443
+      address: https://100.125.0.98:30100
       instance:
         watch: false
   config:
@@ -15,12 +15,5 @@ cse:
       serverUri: https://cse.cn-north-1.myhwclouds.com:443
       refreshMode: 1
       refresh_interval: 5000
-  monitor:
-    client:
-      serverUri: https://cse.cn-north-1.myhwclouds.com:443
   rest:
     address: 0.0.0.0:8080
-  credentials:
-    accessKey: TY8HSBXSAEO4FNQY
-    secretKey: 43cdsj4ceju8fbM3SfDfrMtg3Ksq4YG1LTZpT
-    akskCustomCipher: default
